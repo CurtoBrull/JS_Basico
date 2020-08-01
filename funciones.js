@@ -13,3 +13,14 @@ var miFuncion = function(a,b) {
 }
 
 miFuncion();
+
+// Template string
+
+function saludarEstudiante(estudiante) {
+  console.log(`Hola ${estudiante}`);
+}
+
+function sumar(a,b) {
+  var resultado = a + b;
+  return resultado;
+}
